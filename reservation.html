@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" href="css/mystyles.css"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--måste denna vara med säger vilken version som Microsofts webbläsare ska köra i-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!--This means that the browser will (probably) render the width of the page at the width of its own screen. So if that screen is 320px wide, the browser window will be 320px wide, rather than way zoomed out and showing 960px-->		   
+<title>Boka</title>
+
+		<script src="calendarDateInput.js">
+
+			//* Jason's Date Input Calendar- By Jason Moon http://calendar.moonscript.com/dateinput.cfm
+			//* Script featured on and available at http://www.dynamicdrive.com
+			//* Keep this notice intact for use.
+			
+		</script>
+</head>
+	<body>
+	  <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Hotel Sunce</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Welcome<span class="glyphicon glyphicon-home"></span></a></li>
+                    <li><a href="rooms.html">Rooms<span class="glyphicon glyphicon-bed"></span></a></li>
+                    <li class="active"><a href="reservation.html">Reservation<span class="glyphicon glyphicon-pencil"></span></a></li>
+                    <li><a href="contact.html">Contact us<span class="glyphicon glyphicon-comment"></span></a></li>
+                    <li><a href="findus.html">Find us<span class="glyphicon glyphicon-map-marker"></span></a></li>
+                   
+                </ul>
+            </div>
+           </nav>
+
+         <div id="tabell">
+			<div id="tabellRad">
+			
+			<section class="form">
+			<form action="MAILTO:test@test.com" method="post" enctype="text/plain">
+		<h1>Book a room</h1>
+		Name:<br />
+		<input type="text" name="name"/> <br />
+		Social Security Number:<br />
+		<input type="text" name="personnummer"/> <br />
+		Phone number:<br />
+		<input type="text" name="phone"/> <br />
+		Email:<br />
+		<input type="text" name="email"/> <br />
+
+			Number of rooms:
+			<select name="rooms">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			</select>
+			<br />
+		    Persons per room:
+			<select name="persons">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			</select>
+		
+		<br /><br />
+		<input type="submit" value="Book" />
+		<input type="reset" value="Reset" />
+		</form>
+			</section>
+		
+			<section class="form">
+					<form action="MAILTO:test@test.com" method="post" enctype="text/plain">
+		<h1>Book the conference room</h1>
+		Company Name:<br />
+		<input type="text" name="name"/> <br />
+		Social Security Number:<br />
+		<input type="text" name="personnummer"/> <br />
+		Phone number:<br />
+		<input type="text" name="organisation"/> <br />
+		Email:<br />
+		<input type="text" name="email"/> <br />
+		Date:<script type="text/javascript">DateInput('orderdate', true, 'DD-MON-YYYY')</script>
+		
+		Number of hours:
+		<select name="hours">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		</select>
+		<br />
+	    Starting time: 
+		<select name="from">
+		<option value="07">07:00</option>
+		<option value="08">08:00</option>
+		<option value="09">09:00</option>
+		<option value="10">10:00</option>
+		<option value="11">11:00</option>
+		<option value="12">12:00</option>
+		<option value="13">13:00</option>
+		<option value="14">14:00</option>
+		<option value="15">15:00</option>
+		<option value="16">16:00</option>
+		<option value="17">17:00</option>
+		<option value="18">18:00</option>
+		<option value="19">19:00</option>
+		</select>
+		<br />
+		Select the number of people: 
+		<select name="size">
+		<option value="5">5 or less</option>
+		<option value="10">10 or less</option>
+		<option value="20">20 or less</option>
+		<option value="30">30 or less</option>
+		<option value="40">40 or less</option>
+		<option value="60">60 or less</option>
+		</select>
+	
+	<br /><br />
+	<input type="submit" value="Book" />
+	<input type="reset" value="Reset" />
+	</form></section>
+			
+			</div>
+		</div>
+		 
+        <footer class="navbar-fixed-buttom text-center">
+            <p>Address | Feriza Merzuka 76, Vogošća</p></footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+       
+	</body>
+</html>

@@ -1,0 +1,51 @@
+.navbar {
+    background-color:#051A4A;
+
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    color:  #fff !important;
+     background-color:#051A4A;
+}
+
+
+.navbar-nav li a:hover {
+    color: #051A4A!important;
+    background-color: #051A4A!important;
+}
+
+.navbar-nav li.active a {
+    color: #051A4A!important;
+    background-color: #fff !important;
+}
+
+.navbar-default {
+    color: #051A4A !important;
+}
+
+iframe{
+    width: 80%;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+      
+}
+p{
+    font-family:sans-serif;
+}
+
+
+footer{
+    background-color: #051A4A;
+    color: white;
+}
+
+#slider{
+     width: 100%;   
+}
+
+#slider{
+     width: 100%;   
+}
